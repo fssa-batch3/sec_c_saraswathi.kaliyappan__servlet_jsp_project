@@ -1,15 +1,21 @@
-package com.fssa.skwater.servelt;
+package com.fssa.skwater.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.fssa.skwater.model.Product;
 /**
  * Servlet implementation class LoginServlet
  */
@@ -25,19 +31,14 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		if(email == null || "".equals(email)) {
 			out.println("Invalid Email");
-			response.sendRedirect("login.html");
 		}
 		
 		else if(password == null || "".equals(password) || password.length() < 6) {
-			response.sendRedirect("login.html");	
+			out.println("Invalid password");
 		}
 		else {
 			out.println("Email and password is valid");
-//			response.sendRedirect("home.html");
-			RequestDispatcher dispatcher = request.getRequestDispatcher("home.html");
-			dispatcher.forward(request, response);
 		}
-		
 	}
 
 }
