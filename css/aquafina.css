@@ -1,0 +1,263 @@
+body {
+	height: 500px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+section {
+	width: 100px;
+	height: 100vh;
+	background-image: url(image/bgl.png);
+	background-size: cover;
+	background-position: center;
+}
+
+section nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0 0 8 px rgb(0, 0, 0, 0.6);
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	background-color: rgb(115, 245, 245);
+}
+
+section nav .logo {
+	font-size: 35px;
+	color: #c72092;
+	margin: 5px 0;
+	cursor: pointer;
+	position: relative;
+	left: -4%;
+}
+
+section nav .logo span {
+	color: #6c14d0;
+	text-decoration: underline;
+}
+
+section nav ul {
+	list-style: none;
+}
+
+section nav ul li {
+	display: inline-block;
+	margin: 5px 15px;
+}
+
+section nav ul li a {
+	text-decoration: none;
+	color: none;
+	transition: 0.2s;
+	color: #0000ee;
+}
+
+section nav ul li a:hover {
+	color: #c72092;
+}
+
+section nav .icons {
+	margin: 0 4px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: 0.3s;
+}
+
+section nav .icons i:hover {
+	color: #c72092;
+}
+
+main img {
+	display: flex;
+	flex-direction: row;
+	height: 500px;
+	width: 1843px;
+	position: sticky;
+}
+
+.dropdown-link {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-link a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-link {
+	display: block;
+}
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+.dropbn {
+	color: #0000ee;
+	background-color: rgb(115, 245, 245);
+	padding: 5px 12px;
+	font-size: 15px;
+	border: none;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #b3e6ff;
+    padding: 25px;
+}
+.navbar a{
+       text-decoration: none;
+      
+}
+.dropdown-link{  
+       display: none;
+       position: absolute;
+       background-color: #f1f1f1;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;  
+}
+.dropdown-link a{   
+       color: black;
+       text-decoration: none;
+       display: block; 
+}
+.dropdown:hover .dropdown-link{
+       display: block;
+}
+.dropdown{
+       display: inline-block;
+       position: relative;  
+       left: 30px;
+}
+.dropbn{
+    color: rgb(47, 32, 214);
+    background-color: #b3e6ff;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+input{
+       width: 300px;
+       height: 20px;
+       text-align: center;
+       margin-top: 5px;
+       border-radius: 5px soild black;
+}
+header i {
+    position: relative;
+    margin-left: 440px;
+    margin-top: 10px;
+}
+.user i{  
+       display: flex;
+       margin-right: 30px;
+}
+.home{
+    margin-left: 30px;
+} */
+img {
+	display: flex;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	width: 150px;
+	height: 200px;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.aquafina1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.af1 {
+	border: 2px solid rgb(212, 215, 213);
+	padding: 40px;
+	margin-left: 100px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+.af1 p {
+	width: 180px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.af1 h3 {
+	color: #686a6b;
+}
+
+button {
+	background: #3dbf7c;
+	color: #fff;
+	font-size: 17px;
+	padding: 10px;
+	border-radius: 30px;
+	border: none;
+	cursor: pointer;
+}
+
+.ca {
+	display: flex;
+	flex-direction: row;
+	border: 2px solid black;
+	background-color: gray;
+	padding: 100px;
+	margin-top: 25px;
+}
+
+.cs {
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+}
+
+.ac {
+	display: flex;
+	flex-direction: column;
+	margin-left: 250px;
+}
+
+.fa-solid {
+	display: flex;
+	flex-direction: row;
+	color: blue;
+	margin-left: 15px;
+}

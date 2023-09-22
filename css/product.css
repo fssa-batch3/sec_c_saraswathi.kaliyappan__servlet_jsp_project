@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+/* Style the body background and text */
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #b3e6ff;
+	height: 50px;
+}
+
+.navbar a {
+	text-decoration: none;
+	padding: 5px 12px;
+	font-size: larger;
+	font-style: italic;
+	color: #990099;
+}
+
+input {
+	width: 300px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 5px soild black;
+}
+
+i {
+	position: relative;
+	margin-left: 340px;
+	margin-top: 10px;
+}
+
+.user i {
+	display: flex;
+	margin-right: 30px;
+}
+
+/* Style the content box */
+.content_box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+/* Style individual product items */
+.can {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+}
+
+/* Style product image */
+#can {
+	max-width: 100%;
+	max-height: 150px;
+	margin-bottom: 10px;
+}
+
+/* Style product name */
+h2 {
+	font-size: 1.2em;
+	color: #333;
+}
+
+/* Style product description */
+h3 {
+	font-size: 1em;
+	color: #555;
+}
+
+/* Style product price */
+h4 {
+	font-size: 1.2em;
+	color: #007bff;
+	margin-top: 10px;
+}
+
+/* Style product capacity */
+h5 {
+	font-size: 1em;
+	color: #777;
+	margin-top: 5px;
+}

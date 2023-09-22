@@ -1,0 +1,66 @@
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 600px;
+	margin-left: 450px;
+	margin-top: 250px;
+	justify-content: center;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	padding: 20px;
+	font-size: 50px;
+	font-style: italic;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+label, input {
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+
+.error-message {
+	color: red;
+}
+
+button {
+	margin-top: 20px;
+	align-self: center;
+	font-size: 25px;
+	background-color: rgb(204, 255, 255);
+	color: rgb(16, 15, 15);
+	border-radius: 15px;
+	padding: 5px 10px;
+	padding-left: 3px;
+	justify-content: center;
+	border: 3px solid rgb(15, 187, 226);
+	box-sizing: border-box;
+}
+
+button {
+	width: auto;
+	padding: 5px 10px;
+	margin: 10px 5px;
+	margin-left: 200px;
+	margin-top: 25px;
+}
+
+input[type=text], [type=email], input[type=password] {
+	width: 70%;
+	margin: 8px 0;
+	padding: 20px;
+	display: inline-block;
+	border: 3px solid rgb(0, 153, 0);
+	box-sizing: border-box;
+}

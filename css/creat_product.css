@@ -1,0 +1,34 @@
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 500px;
+	height: 500px;
+	margin-top: 250px;
+	margin-left: 50px;
+	padding: 30px;
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	border: 2px solid black;
+	font-weight: bold;
+	font-size: large;
+}
+
+input, textarea, button[id="creat"] {
+	width: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: large;
+}
+
+button[id="update"] {
+	width: 50%;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	font-size: large;
+}

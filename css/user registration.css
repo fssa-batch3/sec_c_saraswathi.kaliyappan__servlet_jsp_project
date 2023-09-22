@@ -1,0 +1,71 @@
+/* Reset default browser styles */
+body, h1, p, label, input, button, a {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Apply a background color and text color to the body */
+body {
+	background-color: #f0f0f0;
+	color: #333;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+
+/* Center content vertically and horizontally */
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+/* Style labels and form inputs */
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+/* Style the login button */
+button[type="submit"] {
+	background-color: #007bff; /* Change to your preferred button color */
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #0056b3;
+	/* Change to your preferred button hover color */
+}
+
+/* Style the registration link */
+p a {
+	color: #007bff; /* Change to your preferred link color */
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
